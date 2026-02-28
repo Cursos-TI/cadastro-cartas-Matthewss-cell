@@ -27,7 +27,52 @@ int main() {
     int pontosTuristicos2;
 
   // Área para entrada de dados
+    printf("=== Cadastro da Carta 1 ===\n");
 
+    printf("Estado (A-Z): ");
+    scanf(" %c", &estado1);
+
+    printf("Codigo da carta: ");
+    scanf("%s", codigo1);
+
+    printf("Nome da cidade: ");
+    scanf("%s", nomeCidade1);
+
+    printf("Populacao: ");
+    scanf("%d", &populacao1);
+
+    printf("Area (km2): ");
+    scanf("%f", &area1);
+
+    printf("PIB (em bilhoes): ");
+    scanf("%f", &pib1);
+
+    printf("Numero de pontos turisticos: ");
+    scanf("%d", &pontosTuristicos1);
+
+
+    printf("\n=== Cadastro da Carta 2 ===\n");
+
+    printf("Estado (A-Z): ");
+    scanf(" %c", &estado2);
+
+    printf("Codigo da carta: ");
+    scanf("%s", codigo2);
+
+    printf("Nome da cidade: ");
+    scanf("%s", nomeCidade2);
+
+    printf("Populacao: ");
+    scanf("%d", &populacao2);
+
+    printf("Area (km2): ");
+    scanf("%f", &area2);
+
+    printf("PIB (em bilhoes): ");
+    scanf("%f", &pib2);
+
+    printf("Numero de pontos turisticos: ");
+    scanf("%d", &pontosTuristicos2);
   // Área para exibição dos dados da cidade
 
 return 0;
